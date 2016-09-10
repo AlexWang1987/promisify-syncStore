@@ -1,6 +1,6 @@
 {
   "name": "syncStore",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Synchroize your local storage 2 server",
   "main": "dist/main.js",
   "directories": {
@@ -35,4 +35,3 @@
     "build": "dist/"
   }
 }
-
