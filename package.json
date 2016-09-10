@@ -1,0 +1,32 @@
+{
+  "name": "localStore2Server",
+  "version": "1.0.0",
+  "description": "Synchroize your local storage 2 server",
+  "main": "dist/main.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "keywords": [
+    "localStore2Server"
+  ],
+  "author": "AlexWang",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "es6-promise": "^3.2.1",
+    "localforage": "^1.4.2",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "wbp": {
+    "project": "umd",
+    "entries": {
+      "main": "./main.js"
+    },
+    "source": "src/",
+    "build": "dist/"
+  }
+}
