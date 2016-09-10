@@ -8,7 +8,7 @@ Synchroize your local storage 2 server.
 - Concurrent Delay
 - Customize number of entries at time
 - Message Acknowledgment without losing
-- All Message width CUID identity
+- All Messages with CUID identity
 - ...
 
 
@@ -37,7 +37,7 @@ name: 'defaultDatabase',
 //  local store name
 storeName: 'defaultDataStore', 
 
-// select localstorage for univeral usage.
+// select localstorage for general purpose.
 driver: [
   localforage.LOCALSTORAGE, 
 ]
@@ -88,4 +88,4 @@ localStore
   })
 ```
 
-that's all
+that's all. any feedback will be appreciated.
