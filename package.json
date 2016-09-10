@@ -1,5 +1,5 @@
 {
-  "name": "syncStore",
+  "name": "promisify-syncStore",
   "version": "1.0.2",
   "description": "Synchroize your local storage 2 server",
   "main": "dist/main.js",
@@ -16,7 +16,7 @@
   "author": "AlexWang",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexWang1987/syncStore.git"
+    "url": "git+https://github.com/AlexWang1987/promisify-syncStore.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -35,3 +35,4 @@
     "build": "dist/"
   }
 }
+
