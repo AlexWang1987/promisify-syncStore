@@ -1,6 +1,6 @@
 {
   "name": "promisify-syncstore",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Synchroize your local storage 2 server",
   "main": "dist/main.js",
   "directories": {
@@ -35,4 +35,3 @@
     "build": "dist/"
   }
 }
-
