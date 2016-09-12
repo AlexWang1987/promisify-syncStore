@@ -1,5 +1,5 @@
 {
-  "name": "promisify-syncStore",
+  "name": "promisify-syncstore",
   "version": "1.0.5",
   "description": "Synchroize your local storage 2 server",
   "main": "dist/main.js",
@@ -35,3 +35,4 @@
     "build": "dist/"
   }
 }
+

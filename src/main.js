@@ -8,7 +8,7 @@
 //  Author: AlexWang
 //  Date: 2016-09-10 21:05:17
 //  QQ Email: 1669499355@qq.com
-//  Last Modified time: 2016-09-10 22:08:52
+//  Last Modified time: 2016-09-12 16:34:38
 //  Description: syncStore-main
 //
 // //////////////////////////////////////////////////////////////////////////////
@@ -26,7 +26,7 @@ import cuid from 'cuid';
 let globalOptions = {
   syncDatastore: null,
   entryMaxOfPkg: 5,
-  concurrentMax: 2,
+  concurrentMax: 1,
   concurrentInterval: 5000,
   entryACK: false,
   name: 'defaultDatabase',

@@ -8,7 +8,7 @@ Synchroize your local storage 2 server.
 - Concurrent Delay
 - Customize number of entries at time
 - Message Acknowledgment without losing
-- All Messages with CUID identity
+- All Messages with CUID sequential identities.
 - ...
 
 
@@ -20,7 +20,7 @@ Synchroize your local storage 2 server.
 entryMaxOfPkg: 5, 
 
 // Maximum Concurrency
-concurrentMax: 2,
+concurrentMax: 1, // default 1, to make sure sequentially posting.
 
 // Concurrency Delay
 concurrentInterval: 5000, 
