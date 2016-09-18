@@ -8,14 +8,14 @@
 //  Author: AlexWang
 //  Date: 2016-09-10 21:05:17
 //  QQ Email: 1669499355@qq.com
-//  Last Modified time: 2016-09-12 16:34:38
+//  Last Modified time: 2016-09-18 15:51:28
 //  Description: syncStore-main
 //
 // //////////////////////////////////////////////////////////////////////////////
 
 require('es6-promise').polyfill();
 require('whatwg-fetch');
-
+import "babel-polyfill";
 import localforage from 'localforage';
 import Promise from 'bluebird/js/browser/bluebird';
 import cuid from 'cuid';
